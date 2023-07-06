@@ -1,0 +1,97 @@
+.footer{
+  background: #0E1D26;
+  border-radius: 120px 0px 0px 0px;  
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (min-width: 500px) {
+  padding: 0px 60px;
+  min-height: 385px;
+  }
+  &-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__social{
+
+    }
+  }
+  &-bottom{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 40px;
+    position: relative;
+    min-height: 240px;
+    &__section{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 0 16px;
+      &--label{
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+        border-bottom: 1px solid #E0E4E6;
+        padding-bottom: 8px;
+        margin-bottom: 24px;
+        &__section{
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      &--links{
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+      }
+      &--triple-div{
+        display: flex;
+        flex-direction: row;
+        .footer-bottom__section--label__section{
+          margin-right: 16px;
+          max-width: 186px;
+          width: 100%;
+        }
+      }
+    }
+    &__copyright{
+      background: #000000;
+      border-radius: 24px 24px 0px 0px;
+      font-family: 'Gotham';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #9DA6AB;
+      height: 50px;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &-item{
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #9DA6AB;
+        &:not(:last-child){
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+}

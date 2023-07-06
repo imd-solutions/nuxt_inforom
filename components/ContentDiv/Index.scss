@@ -1,0 +1,80 @@
+.content-div {
+  border-radius: 24px 0px;
+  padding: 32px;
+
+  &__main-title {
+    border-bottom: 1px solid black;
+    padding-bottom: 18px;
+
+  }
+
+  &__title {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 140% !important;
+    font-family: 'Gotham' !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase;
+    color: #1A2746;
+  }
+
+  .title {
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 125% !important;
+    color: #1A2746;
+  }
+
+  .content {
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+
+    color: #1A2746;
+  }
+
+  .default-image {
+    img {
+      width: 72px !important;
+    }
+  }
+}
+
+.content-div.reports-content {
+  .title {
+    font-family: 'Gotham-Book';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    color: #1A2746;
+  }
+  .contentText {
+    font-family: 'Gotham-Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1A2746;
+  }
+  .card-content__img{
+      height: 100%;
+      display: flex;
+      margin-top: 30px;
+  }
+  .card-border-bottom{
+      border-bottom: 1px solid #1A2746;
+  }
+}
+.content-div.most-popular{
+  .default-image {
+    img {
+      width: 123px !important;
+    }
+  }
+}

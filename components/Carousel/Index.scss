@@ -1,0 +1,67 @@
+.carousel{
+  &-tag{
+    padding: 16px 24px;
+    position: absolute;
+    width: 217px;
+    height: 55px;
+    right: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 125% !important;
+    color: #1A2746 !important;
+    text-align: center;
+  }
+
+}
+
+.slick-slide{
+  opacity: 0.4;
+  padding-right: 8px;
+  &.slick-active{
+    opacity: 1;
+  }
+}
+.slick-dots {
+  text-align: center;
+  padding-left: 0 !important;
+  margin-top: 24px;
+  li {
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    &.slick-active{
+      cursor: default;
+      &:after {
+        background: #1A2746;
+      }
+
+    }
+
+    &:after {
+      content: " ";
+      height: 20px;
+      width: 20px;
+      border-radius: 20px;
+      background: white;
+      border-color: #1A2746;
+      border: 4px solid #1A2746;
+      display: block;
+      position: absolute;
+      margin-right: 2px;
+      bottom: 10px;
+    }
+
+    button {
+      opacity: 0;
+      width: 20px;
+      position: relative;
+      margin-right: 2px;
+    }
+  }
+}

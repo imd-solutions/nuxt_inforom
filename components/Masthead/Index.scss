@@ -1,0 +1,51 @@
+.masthead {
+  border-radius: 24px 0px;
+  padding: 22px 22px 12px 32px;
+
+  &__main-title {
+    padding-bottom: 18px;
+
+  }
+
+  &__title {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 42px !important;
+    line-height: 140% !important;
+    font-family: 'Gotham' !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase;
+    color: #1A2746;
+  }
+
+  .title {
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 42px !important;
+    line-height: 125% !important;
+    color: #1A2746;
+  }
+
+  h2 {
+      font-weight: 400;
+      font-size: 20px;
+  }
+
+  .content {
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+
+    color: #1A2746;
+  }
+
+  .default-image {
+    img {
+      width: 72px !important;
+    }
+  }
+
+}

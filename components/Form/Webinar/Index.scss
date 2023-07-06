@@ -1,0 +1,85 @@
+.webinar-form {
+  background: #F2F4F4;
+  border: 1px solid #EEF0F1;
+  box-sizing: border-box;
+  box-shadow: 0px 24px 28px 1px rgba(0, 0, 0, 0.07);
+  border-radius: 24px 0px;
+  padding: 28px;
+
+  &__title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #1A2746;
+  }
+
+  &__content-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1A2746;
+  }
+
+  .v-input__slot {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: none !important;
+  }
+
+  .v-input--checkbox {
+    padding: 0;
+    margin-top: 0 !important;
+    margin-right: 12px;
+    .v-input__slot {
+      padding: 12px;
+      .v-input--selection-controls__input {
+        margin: 0 !important;
+      }
+    }
+  }
+  &__content {
+    label {
+      font-family: 'Gotham';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      color: #6F797E;
+    }
+  }
+  &__footer-text{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #9DA6AB;
+  }
+  .thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #country_label {
+    width: 100%;
+    display: block;
+    margin-bottom: 11px;
+  }
+  .vue-country-select {
+    background-color: white;;
+  }
+}

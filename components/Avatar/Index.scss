@@ -1,0 +1,32 @@
+.avatar {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  background: white;
+  height: 36px;
+
+
+  &__name {
+    min-width: 90px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 0 6px;
+    /* or 22px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Primary/ Ink blue */
+
+    color: #1A2746;
+
+  }
+}

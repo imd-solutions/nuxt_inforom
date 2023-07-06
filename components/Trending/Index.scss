@@ -1,0 +1,42 @@
+.trending {
+  width: 100%;
+  background: #F2F4F4;
+  border-radius: 40px 0px;
+  padding: 20px;
+  height: 100%;
+  &-item{
+    margin-bottom: 16px;
+  }
+  .icon {
+    margin-top: 5px;
+  }
+  .title {
+    font-family: 'Gotham' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 140% !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase;
+    color: #B71A5D !important;
+  }
+
+  p {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #000000;
+    margin-bottom: 0!important;
+  }
+  .date,.author{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #9DA6AB;
+  }
+}

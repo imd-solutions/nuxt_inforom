@@ -1,0 +1,50 @@
+.border-1 {
+  border: 1px solid black;
+}
+
+.fullMastHead {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  .border-1 {
+    @media only screen and (max-width: 500px) {
+      height: 20px;
+      min-width: 40px;
+      padding: 0px 15px;
+      font-size: 12px;
+    }
+
+    border: 1px solid #1a2746;
+    border-radius: 20px 20px;
+    box-shadow: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.fullMastContent {
+  @media only screen and (max-width: 500px) {
+    position: relative;
+    margin-top: 550px;
+  }
+}
+.mastheadTopic {
+  min-height: 200px;
+}
+.mastheadSubtitle {
+  font-family: "Gotham" !important;
+  padding-bottom: 10px;
+}
+.mastheadContainer {
+  margin-top: 320px;
+  ~ .mastheadContainer {
+    border-top: none;
+    margin-top: 20px;
+  }
+  .mastheadContent {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.mastheadHr {
+  border: 1px solid #e0e4e6;
+}

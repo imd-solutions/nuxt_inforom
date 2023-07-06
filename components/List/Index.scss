@@ -1,0 +1,16 @@
+.list {
+  padding-left: 0 !important;
+  &-item {
+    margin-top: 10px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #9DA6AB;
+    list-style-type: none;
+    &--active {
+      color: #1A2746;
+    }
+  }
+}

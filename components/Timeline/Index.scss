@@ -1,0 +1,59 @@
+.timeline {
+  padding: 32px;
+  border-radius: 24px 0px;
+
+  .v-timeline {
+    padding-top: 0 !important;
+
+    &:before {
+      left: 18px !important;
+      top: 8px;
+    }
+
+    &-item__dot {
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    &-item {
+      flex-direction: row !important;
+      margin-bottom: 16px;
+      position: relative;
+
+      &__divider {
+        display: none !important;
+      }
+
+      &:not(:first-child) {
+        &:before {
+          content: "";
+          position: absolute;
+          top: -28px;
+          left: 8px;
+          background: #aabe3b;
+          width: 10px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  &__content {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    color: #1A2746;
+    margin-left: 32px;
+
+    p {
+      margin-top: 16px;
+    }
+  }
+
+  &-avatar {
+
+  }
+}

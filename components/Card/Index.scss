@@ -1,0 +1,36 @@
+.horizontal-card{
+  display: flex;
+  height: 100%;
+  .default-image{
+    img{
+      margin-right: 20px !important;
+    }
+  }
+  .col70 {
+    width: 70% !important;
+  }
+  .col30 {
+    width: 30% !important;
+  }
+  .card-content__text{
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    min-width:0;
+    padding: 10px;
+    .topicAndType{
+      margin: 10px 0 !important;
+    }
+  }
+  .card__footer{
+    margin-top: 6px !important;
+    color: #9DA6AB !important;
+  }
+}
+
+.fullwidth-card {
+  .card-content__img {
+    width: 33% !important;
+  }
+}

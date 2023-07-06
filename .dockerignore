@@ -1,0 +1,7 @@
+Dockerfile
+infra
+node_modules
+.git
+.idea
+.gitignore
+.editorconfig

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "reports",
+    "path": "/reports",
+    "component": "/Users/ardadura/NodeJS/tmf/tmf-inform-frontend/tmf-inform-frontend/pages/reports/index.vue",
+    "chunkName": "pages/reports/index",
+    "_name": "_25523b10"
+  },
+  {
+    "name": "topics",
+    "path": "/topics",
+    "component": "/Users/ardadura/NodeJS/tmf/tmf-inform-frontend/tmf-inform-frontend/pages/topics/index.vue",
+    "chunkName": "pages/topics/index",
+    "_name": "_312fd9be"
+  },
+  {
+    "name": "reports-details-category",
+    "path": "/reports/details/:category?",
+    "component": "/Users/ardadura/NodeJS/tmf/tmf-inform-frontend/tmf-inform-frontend/pages/reports/details/_category.vue",
+    "chunkName": "pages/reports/details/_category",
+    "_name": "_139d2076"
+  },
+  {
+    "name": "details-id",
+    "path": "/details/:id?",
+    "component": "/Users/ardadura/NodeJS/tmf/tmf-inform-frontend/tmf-inform-frontend/pages/details/_id.vue",
+    "chunkName": "pages/details/_id",
+    "_name": "_fcaadf3a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ardadura/NodeJS/tmf/tmf-inform-frontend/tmf-inform-frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_67942670"
+  }
+]

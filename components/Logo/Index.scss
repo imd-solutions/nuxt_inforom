@@ -1,0 +1,29 @@
+.v-toolbar__title {
+  flex-shrink: 0;
+  width: 82px;
+}
+.logo {
+    width: 82px;
+    height: 37px;
+}
+
+.date{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #9DA6AB;
+}
+#logo_header {
+    .logo {
+        width: 83px;
+        height: 37px;
+    }
+}
+#logo_footer {
+    .logo {
+    width: 143px;
+    height: 51px;
+    }
+}

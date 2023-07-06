@@ -1,0 +1,13 @@
+.contentText{
+  font-family: 'Gotham-Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6F797E;
+  margin-top: 8px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

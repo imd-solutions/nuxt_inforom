@@ -1,0 +1,31 @@
+.navigation-select{
+  .v-btn{
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    max-height: 21px;
+    box-shadow: none !important;
+    padding: 0 !important;
+    &:focus, &:hover, &:active{
+      &:before{
+        background: none !important;
+      }
+    }
+    .v-ripple__container{
+      opacity: 0 !important;
+    }
+    &:before{
+      display: none;
+    }
+  }
+}
